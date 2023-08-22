@@ -1,0 +1,349 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  transition: 0.5s ease-in !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth !important;
+    }
+  }
+  
+@media print {
+:root {
+    display: none !important;
+    pointer-events: none !important;
+}
+}
+  
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+body {
+
+overscroll-behavior-y: contain;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-touch-callout: none;
+}
+
+
+#overlay {
+position: fixed; /* Sit on top of the page content */
+display: none; /* Hidden by default */
+width: 100%; /* Full width (cover the whole page) */
+height: 100%; /* Full height (cover the whole page) */
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+cursor: pointer; /* Add a pointer on hover */
+}
+
+.fa-beat {
+
+  animation-duration: var(--fa-animation-duration,8s) !important;
+}
+
+
+
+@font-face {
+  font-family: graphikbold;
+  src: url(../fonts/Graphik/GraphikBold.otf);
+}
+
+
+@font-face {
+  font-family: graphikreg;
+  src: url(../fonts/Graphik/GraphikRegular.otf);
+}
+
+
+@font-face {
+  font-family: graphiksemibold;
+  src: url(../fonts/Graphik/GraphikSemibold.otf);
+}
+
+
+@font-face {
+  font-family: montbold;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: montsemibold;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+
+@font-face {
+  font-family: montreg;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: montlight;
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.navbar {
+  background-color: #76C8F7;
+   
+
+}
+.navbar-brand img{
+  width: 8rem !important; 
+  
+}
+
+.dropdown-menu {
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: none !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  padding: 20px !important;
+  
+}
+
+.toggler-icon {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  position: absolute;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+  border-radius: 10px;
+  margin-right: 100px !important;
+}
+
+
+/*when navigation is clicked*/
+.navbar-toggler .top-bar {
+  margin-top: 7px;
+  transform: rotate(0deg);
+  width: 18px !important;
+
+}
+
+
+.navbar-toggler .middle-bar {
+  margin-top: 13.5px;
+  width: 14px !important;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(0deg); 
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-item{
+  color: #000000;
+
+}
+.dropdown-toggle::before {
+  display: none !important;
+}
+.nav-item {
+  margin-left: 30px !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 1.1rem !important;
+  color: #000000 !important;
+}
+
+.nav-link.active{
+  color: #fff !important;
+}
+
+.nav-link.clientarea{ 
+  background: #3F007F !important;
+  border-radius: 15px;
+  width: 100% !important;
+  padding: 10px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin-left: 20px !important;
+}
+
+.nav-link.clientarea:hover{
+  color: #000000 !important;
+}
+
+
+.toggler-icon {
+  display: block;
+  background-color: #000000;
+  margin: 6px auto;
+}
+.homelanding{
+  background-color:  #240444 !important;
+
+}
+
+
+
+.footer h4{
+  font-size: 1.3rem !important;
+}
+.footer p{
+  font-size: 1rem !important;
+}
+
+
+/********** RESPONSIVENESS **********/
+
+/* For 480 Resolution - Laptop*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  
+
+  .navbar-nav  {
+   background: #3F007F !important;
+    padding-bottom: 100px !important;
+    padding-top: 10px !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    display: flex !important;
+
+   
+  }
+
+
+  .nav-link.active{
+    color: #3F007F !important;
+  }
+  
+  .dropdown-menu {
+    left: 0 !important;
+    position: static !important;
+    transform: none !important;
+    display: block !important;
+    overflow-y: visible !important;
+    background-color: #76C8F7 !important ; 
+  }
+
+.navbar-nav{
+    margin-top: 20px !important;
+    height: 100vh  !important;
+    padding-top: 0 !important;
+  }
+
+  .nav-item {
+    margin-left: 0px !important;
+    margin-top: 30px !important;
+   
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    color: #000000 !important;
+    margin-left: 15px !important;
+  }
+
+  .navbar-brand img{
+    width: 6rem !important;
+  }
+
+  .nav-link.clientarea{
+    border-radius: 15px;
+    justify-content: center !important;
+    display: block !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    position: relative;
+    z-index: 1000;
+  }
+
+  
+
+  .nav-item {
+    margin-left: 0px !important;
+    margin-top: 30px !important;
+   
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    margin-left: 30px !important;
+  }
+
+  .navbar-brand img{
+    width: 6rem !important;
+  }
+
+  .show-on-hover:hover  {
+    display: block !important;
+  }
+
+  .nav-link.clientarea{
+    border-radius: 15px;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: 90px !important;
+    margin-left: 10px !important;
+    position: relative;
+    z-index: 1000;
+  }
+
+ 
+ 
+  .footer p{
+    font-size: 12px;
+    justify-content: left;
+  }
+
+.footer h5{
+    font-size: px;
+  }
+
+.footer{
+    padding: 0px 24px !important;
+  }
+
+.footer-logo{
+    width: 90px !important;
+    height: 30px !important;
+  }
+
+  .footer Link{
+    margin-bottom: 0px 30px !important;
+  }
+
+}
+

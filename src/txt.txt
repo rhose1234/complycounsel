@@ -1,0 +1,31 @@
+import crypto from './assets/img/crypto.svg';
+import star from './assets/img/star.svg';
+import social from './assets/img/social.svg';
+
+<section className='newfeatures mt-5'>
+            <div className='container justify-content-center text-center'>
+                <small>⚡what&#39;s new in 3.0</small>
+                <h3 className='display-6 mt-3'>We&#39;re making it easier</h3>
+            </div>
+
+            <div className='container d-lg-flex mt-5 pt-3 mb-5 pb-4 p-lg-5 col-11 text-center justify-content-center m-auto'>
+
+                <div className='card me-5 py-5'>
+                    <img src={crypto} alt="" className='img-fluid m-auto' width="200"/>
+                    <h4 className='mt-5 mb-lg-0 mb-3'>Pay with crypto</h4>
+                    <p className='col-lg-10 col-lg-10 col-11 m-auto mb-4'>Explore Seamless Cryptocurrency Payments for Your Domain and Hosting Services!</p>
+                </div>
+
+                <div className='card me-5 py-5'>
+                    <img src={star} alt="" className='img-fluid m-auto' width="200"/>
+                    <h4 className='mt-5'>Enjoy 5GB MTN Data</h4>
+                    <p className='col-lg-10 col-10 m-auto mb-4'>Unlock 5GB of MTN Data for 30 Days with Every Annual Web Hosting Plan!</p>
+                </div>
+
+                <div className='card me-5 py-5'>
+                    <img src={social} alt="" className='img-fluid m-auto' width="200"/>
+                    <h4 className='mt-5 col-10 m-auto'>Host directly from your social media</h4>
+                    <p className='col-lg-10 col-11 m-auto mb-4'>Seamlessly Purchase Hosting and Domains via Our Social Media Accounts!</p>
+                </div>
+            </div>
+        </section>
