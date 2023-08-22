@@ -6,7 +6,7 @@ import './assets/css/style.css';
 import Home from './home';
 import HandleError404 from './controllers/handleError404';
 import Navbar from './controllers/Navbar';
-import Footer from './controllers/footer';
+// import Footer from './controllers/footer';
 
 function App() {
 
@@ -52,7 +52,7 @@ function App() {
               <Route path='/' element={<Home/>} />
               <Route path='/*' element={<HandleError404/>} />
             </Routes>
-          <Footer/>
+          {/* <Footer/> */}
         <ToastContainer />
       </div>
      </Router>

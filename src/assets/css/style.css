@@ -110,7 +110,7 @@ body{
 }
 
 .navbar {
-  background-color: #76C8F7;
+  background-color: #240444 ;
    
 
 }
@@ -158,11 +158,13 @@ body{
   margin-top: 13.5px;
   width: 14px !important;
   transform: rotate(0deg);
+
 }
 
 .navbar-toggler .bottom-bar {
   margin-top: 0px;
   transform: rotate(0deg); 
+  width: 15px !important;
 }
 
 .dropdown-toggle::after {
@@ -182,11 +184,11 @@ body{
 .nav-link {
   font-weight: 500;
   font-size: 1.1rem !important;
-  color: #000000 !important;
+  color: #fff !important;
 }
 
 .nav-link.active{
-  color: #fff !important;
+  color: #3F007F !important;
 }
 
 .nav-link.clientarea{ 
@@ -206,12 +208,22 @@ body{
 
 .toggler-icon {
   display: block;
-  background-color: #000000;
+  background-color: #fff !important;
   margin: 6px auto;
 }
 .homelanding{
   background-color:  #240444 !important;
+  color: #fff !important;
 
+}
+.homelanding h1 span{
+  color:#3F007F !important;
+}
+.homelanding a.btn{
+  width: 50% !important;
+  background-color: #3F007F;
+  color: #fff !important;
+  padding: 25px !important;
 }
 
 
