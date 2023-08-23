@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 
 <div className='d-flex ms-lg-5 clientarea'>
-<a className=" btn  fw-bold nav-item nav-link  text-center clientarea" href="./signin.jsx">Create Free Account</a>
+<a className=" btn  fw-bold nav-item nav-link  text-center clientarea" href="/signin">Create Free Account</a>
 </div>
 </ul>
 

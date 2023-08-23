@@ -187,15 +187,37 @@ span .navbar-toggler-icon {
 
 
 .form{
+ 
   background-color: #240444 !important;
+  color: #fff !important;
+ 
 }
+
+.box{
+  justify-content: end !important;
+  align-items: center !important;
+  display:  block !important;
+  width: 50%;
+  padding: 20px; /* Adjust as needed */
+ 
+}
+
 .form input{
    height: 50px !important;
-   width: 50% !important;
+   border: 2px solid #7e15e7 !important;
+   border-radius: 10px !important;
+   margin-top: 30px !important;
+ 
 
 }
+.form input:hover{
+  height: 50px !important;
+   border: 2px solid #7e15e7 !important;
+   border-radius: 10px !important;
+  
+}
 .form input::placeholder{
-  background-color: #7F0CF3 !important;
+  background-color: #cdbcdf !important;
   padding: 30px !important;
 }
 
@@ -213,30 +235,24 @@ span .navbar-toggler-icon {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
   
-
-  .navbar-nav  {
+.navbar-nav  {
    
     padding-bottom: 100px !important;
     padding-top: 10px !important;
     margin-top: 10px !important;
     margin-bottom: 20px !important;
     display: flex !important;
-
-   
-  }
-
-
-  .nav-link.active{
-    color: #7e15e7 !important;
-  }
-
-.navbar-nav{
     margin-top: 20px !important;
     height: 100vh  !important;
     padding-top: 0 !important;
   }
 
-  .nav-item {
+.nav-link.active{
+    color: #7e15e7 !important;
+  }
+
+
+.nav-item {
     margin-left: 0px !important;
     margin-top: 30px !important;
    

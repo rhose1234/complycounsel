@@ -8,20 +8,22 @@ const signin = () => {
   return (
     <div>
 
-<div className="form w-100 d-block justify-content-center">
-<a href="./" className="w-50 "><img src={logo} alt="logo" /></a> 
+<div className="form w-100 vh-100 d-flex align-items-center justify-content-center mt-5">
+
+    <div className="box text-center">
+ <img src={logo} alt="logo" className='mb-4 mt-3' /> 
 
 <form>
 <div className="form-heading">
-<h4>Create Your Account</h4>
-<p>Phone verification might be needed for signup; number used solely for security.</p>
+<h2 className='text-center mb-1'>Create Your Account</h2>
+<p className='text-center'>Phone verification might be needed for signup; number used solely for security.</p>
 </div>
 
-<input type='email' placeholder='Email Address' className='email'></input>
+<input type='email' placeholder='Email Address' className='email w-100 mb-3'></input>
 
-<input type='password' placeholder='Password' className='password'></input>
+<input type='password' placeholder='Password' className='password w-100 mb-3'></input>
 
-<input type='number' placeholder='Phone number' className='phone'>
+<input type='number' placeholder='Phone number' className='phone w-100 mb-3'>
 
 </input>
 
@@ -43,7 +45,7 @@ const signin = () => {
     </div>
     </form>
 </div>
-
+</div>
 
 </div>
   
