@@ -6,6 +6,7 @@ import './assets/css/style.css';
 import Home from './home';
 import HandleError404 from './controllers/handleError404';
 import Navbar from './controllers/Navbar';
+import signin from './controllers/signin';
 // import Footer from './controllers/footer';
 
 function App() {
@@ -52,7 +53,9 @@ function App() {
               <Route path='/' element={<Home/>} />
               <Route path='/*' element={<HandleError404/>} />
             </Routes>
+            
           {/* <Footer/> */}
+          <signin/>
         <ToastContainer />
       </div>
      </Router>
