@@ -1,4 +1,5 @@
 import logo from '/logo.svg';
+import google from '../assets/img/google.png';
 
 
 
@@ -8,7 +9,7 @@ const signin = () => {
   return (
     <div>
 
-<div className="form w-100 vh-100 d-flex align-items-center justify-content-center mt-5">
+<div className="form  d-flex align-items-center justify-content-center mt-5">
 
     <div className="box text-center">
  <img src={logo} alt="logo" className='mb-4 mt-3' /> 
@@ -19,29 +20,29 @@ const signin = () => {
 <p className='text-center'>Phone verification might be needed for signup; number used solely for security.</p>
 </div>
 
-<input type='email' placeholder='Email Address' className='email w-100 mb-3'></input>
+<input type='email' placeholder='Email Address' className='email w-100 mb-2'></input>
 
-<input type='password' placeholder='Password' className='password w-100 mb-3'></input>
+<input type='password' placeholder='Password' className='password w-100 mb-2'></input>
 
-<input type='number' placeholder='Phone number' className='phone w-100 mb-3'>
+<input type='number' placeholder='Phone number' className='phone w-100 mb-2'>
 
 </input>
 
-<button type='submit' className='signin-btn'>Continue</button>
+<a type='submit' className='signin-btn btn mt-4' href="/otp" >Continue</a>
 
-<div className="login">
-    <h6>Already have an account? <a>login</a></h6>
-    <button>
+<div className="login mt-3">
+    <h6 className='mb-3'>Already have an account? <a>login</a></h6>
+    <a className='btn'>
         <div className='d-flex justify-content-around'>
         <div>
-        <img src="" alt="" />
+        <img src={google} alt="" className='' />
         </div>
 
         <div>
         <h5>Sign up with google</h5>
         </div>
         </div>
-    </button>
+    </a>
     </div>
     </form>
 </div>

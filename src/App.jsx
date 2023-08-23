@@ -7,7 +7,8 @@ import './assets/css/style.css';
 import Home from './home';
 import HandleError404 from './controllers/handleError404';
 import Navbar from './controllers/Navbar';
-import SigninPage from './controllers/signin'; // Import the SigninPage component
+import SigninPage from './controllers/signin'; 
+import Otpage from './controllers/otp';
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/*" element={<HandleError404 />} />
             <Route path="/signin" element={<SigninPage />} />
+            <Route path="/otp" element={<Otpage />} />
             {/* Use `element` prop instead of `component` */}
             <Route path="*" element={<Navigate to="/404" />} />
           </Routes>

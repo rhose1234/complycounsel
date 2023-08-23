@@ -36,7 +36,7 @@ const Home = () => {
             <div className="row">
             
                 <div className='pt-3 col-lg-6 col-12'>
-                    <h4 className='display-6  mb-5 fw-bold text-secondary'>About us</h4>
+                    <h4 className='display-6  mb-5 fw-bold text-secondary'>About us🚀</h4>
                     <p className='text-start'>Meet ConselComply, the cutting-edge AI chatbot poised to revolutionize your business's regulatory compliance. Designed for startups and SMEs alike, it's your ultimate guide through the intricate landscape of country-specific regulations. Whether you're newly established or already thriving, ConselComply streamlines the complex process, allowing you to navigate with confidence. Stay up-to-date and informed while focusing on what truly matters – the growth and success of your business. Let ConselComply handle the regulatory maze, so you can dedicate more energy to innovation and expansion. Embrace compliance effortlessly and elevate your entrepreneurial journey with ConselComply by your side.</p>
                 </div>
 

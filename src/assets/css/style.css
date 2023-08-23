@@ -217,10 +217,25 @@ span .navbar-toggler-icon {
   
 }
 .form input::placeholder{
-  background-color: #cdbcdf !important;
+  background-color: #f5f5f5 !important;
   padding: 30px !important;
 }
-
+form img{
+width: 20px !important;
+margin-right: 10px !important;
+}
+form .btn{
+  padding: 15px !important;
+  background-color: #fff;
+  border: 2px solid #7e15e7 !important;
+  border-radius: 10px !important;
+}
+.login a{
+  color: #7e15e7 !important;
+}
+.otp-icon{
+  font-size: 35px !important;
+}
 .footer h4{
   font-size: 1.3rem !important;
 }
